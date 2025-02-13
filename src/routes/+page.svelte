@@ -7,10 +7,19 @@
     import Contact from "../components/contact.svelte";
 </script>
 
+<div>
+    <Navbar /> 
+    <section id="about">
+        <Intro />
+    </section> 
+    <section id="projects">
+        <Projects />
+    </section>
+    <TechStack />
+    <section id="contact">
+        <Contact />
+    </section>
+    <Footer />
+</div>
 
-<Navbar />  
-<Intro />
-<Projects />
-<TechStack />
-<Contact />
-<Footer />
+
