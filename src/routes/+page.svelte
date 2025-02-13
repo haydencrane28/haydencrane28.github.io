@@ -1,6 +1,7 @@
 <script lang="ts">
     import Navbar from "../components/navbar.svelte";
     import Intro from "../components/intro.svelte";
+    import Experience from "../components/experience.svelte";
     import Projects from "../components/projects.svelte";
     import TechStack from "../components/tech-stack.svelte";
     import Footer from "../components/footer.svelte";
@@ -9,8 +10,9 @@
 
 <div>
     <Navbar /> 
+    <Intro />
     <section id="about">
-        <Intro />
+        <Experience />
     </section> 
     <section id="projects">
         <Projects />

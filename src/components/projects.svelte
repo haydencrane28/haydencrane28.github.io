@@ -1,48 +1,20 @@
 <script lang="ts">
     import ProjectCard from './project-card.svelte';
 
-    let projects = [
+    let projects = [  
         {
-            title: "USLA Reference Data Application",
-            description: "Description of the project",
+            title: "StealhScribe - A Decentralized News Platform Powered by IPFS",
+            description: "PERMANENT, ANONYMOUS, UNFILTERED. Leveraging bleeding edge peer-to-peer file sharing technology, StealthScribe allows users from anywhere on (or off) the planet to share news or information easily.",
             image: "/favicon.png",
-            link: "https://github.com/haydencrane28/USLA-Reference-Data",
-            tags: ["Python", "Streamlit", "SQL"]
+            link: "https://github.com/StephenSulimani/UGAHacksX",
+            tags: ["Svelte", "TypeScript", "IPFS", "Docker", "MongoDB", "Prisma"]
         },
         {
             title: "USLA Reference Data Application",
-            description: "Description of the project",
+            description: "A Streamlit CRUD Application implemented in Snowflake to handle United States Loss Adjusting reference data for Crawford and Company.",
             image: "/favicon.png",
             link: "https://github.com/haydencrane28/USLA-Reference-Data",
-            tags: ["Python", "Streamlit", "SQL"]
-        },
-        {
-            title: "USLA Reference Data Application",
-            description: "Description of the project",
-            image: "/favicon.png",
-            link: "https://github.com/haydencrane28/USLA-Reference-Data",
-            tags: ["Python", "Streamlit", "SQL"]
-        },
-        {
-            title: "USLA Reference Data Application",
-            description: "Description of the project",
-            image: "/favicon.png",
-            link: "https://github.com/haydencrane28/USLA-Reference-Data",
-            tags: ["Python", "Streamlit", "SQL"]
-        },
-        {
-            title: "USLA Reference Data Application",
-            description: "Description of the project",
-            image: "/favicon.png",
-            link: "https://github.com/haydencrane28/USLA-Reference-Data",
-            tags: ["Python", "Streamlit", "SQL"]
-        },
-        {
-            title: "USLA Reference Data Application",
-            description: "Description of the project",
-            image: "/favicon.png",
-            link: "https://github.com/haydencrane28/USLA-Reference-Data",
-            tags: ["Python", "Streamlit", "SQL"]
+            tags: ["Python", "Streamlit", "SQL", "Snowflake"]
         },
     ];
 </script>
