@@ -8,7 +8,7 @@
     import Contact from "../components/contact.svelte";
 </script>
 
-<div>
+<div class="custom-font">
     <Navbar /> 
     <Intro />
     <section id="about">
@@ -24,4 +24,8 @@
     <Footer />
 </div>
 
-
+<style>
+    .custom-font {
+        font-family: 'Audiowide', sans-serif;
+    }   
+</style>

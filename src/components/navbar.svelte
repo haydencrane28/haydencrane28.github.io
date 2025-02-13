@@ -1,5 +1,6 @@
  <script lang="ts">
     import { Navigation2Icon } from 'lucide-svelte';
+    import "@fontsource/audiowide";
     //import Logo from '/lib/portfolio-brandmark.png';
  </script>
 
@@ -7,7 +8,7 @@
     <div class="h-20 bg-sky-950/50 backdrop-blur-md flex z-50 items-center justify-center lg:space-x-150 sm:space-x-55 px-2 sm:px-4 py-1 fixed w-full top-0 start-0">
         <a href="/" class="flex">
             <!--<img src={Logo} class="me-3 h-20" alt="Logo" />-->
-            <span class="self-center whitespace-nowrap text-xl font-bold text-white">Hayden Crane</span>
+            <span class="self-center whitespace-nowrap text-xl text-white">Hayden Crane</span>
         </a>
         <div class="flex items-center space-x-6 font-medium text-white " >
             <a href="#about" class="hover:text-cyan-300">About</a>

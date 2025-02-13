@@ -13,8 +13,8 @@
     ]
 </script>
 
-<div class="bg-sky-950 text-sky-200 flex flex-col items-center py-12 md:py-24 lg:py-32">
-    <h1 class="text-sky-300 mb-3 text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">Experience</h1>
+<div class="custom-font bg-sky-950 text-sky-200 flex flex-col items-center py-12 md:py-24 lg:py-32">
+    <h1 class="custom-font text-sky-300 mb-3 text-3xl tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">Experience</h1>
     {#each experiences as experience}
         <div class="items-left mb-5">
             <h2 class="text-xl">{experience.title}</h2>
@@ -23,3 +23,9 @@
         </div>
     {/each}
 </div>
+
+<style>
+    .custom-font {
+        font-family: 'Audiowide', sans-serif;
+    }
+</style>
