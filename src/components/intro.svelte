@@ -21,9 +21,9 @@
             <a href="https://www.linkedin.com/in/hayden-crane-compsci" target="_blank" aria-label="LinkedIn">
             <Linkedin size={30} class="border text-sky-100 bg-zinc-900" />
             </a>
-            <a href="https://mail.google.com/mail/?view=cm&to=haydenmcrane28@gmail.com" target="_blank" aria-label="LinkedIn">
+            <a href="mailto:haydenmcrane28@gmail.com" target="_blank" aria-label="Email">
                 <Mail size={30} class="border text-sky-100 bg-zinc-900" />
-                </a>
+            </a>
         </div>
     </div>
 </main>
