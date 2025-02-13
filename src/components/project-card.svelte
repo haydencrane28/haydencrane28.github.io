@@ -4,14 +4,17 @@
     export let title;
     export let description;
     export let image;
-    export let link;
+    export let weblink;
+    export let githublink;
     export let tags;
 </script>
 
 <div class="bg-sky-200 overflow-hidden border rounded-lg shadow-md">
-    <div class="relative aspect-video">
-        <img src={image} alt={title} class="object-cover w-full h-full transition-transform hover:scale-105"/>
-    </div>
+    <a href={weblink} target="_blank" rel="noopener noreferrer">
+        <div class="relative aspect-video">
+            <img src={image} alt={title} class="object-cover w-full h-full transition-transform hover:scale-105"/>
+        </div>
+    </a>
     <div class=" p-4">
         <h3 class=" text-sky-950 font-semibold text-xl mb-2">{title}</h3>
         <p class="text-sky-900 text-sm text-gray-500 mb-4">{description}</p>
@@ -24,7 +27,7 @@
         </div>
     </div>
     <div class="p-4 pt-0">
-        <a href={link} target="_blank" aria-label="GitHub">
+        <a href={githublink} target="_blank" aria-label="GitHub">
             <Github size={30} class="inline-flex items-center gap-2 text-sm hover:underline" />
             View on GitHub
         </a>

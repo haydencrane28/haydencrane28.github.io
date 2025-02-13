@@ -5,15 +5,17 @@
         {
             title: "StealhScribe - A Decentralized News Platform Powered by IPFS",
             description: "PERMANENT, ANONYMOUS, UNFILTERED. Leveraging bleeding edge peer-to-peer file sharing technology, StealthScribe allows users from anywhere on (or off) the planet to share news or information easily.",
-            image: "/favicon.png",
-            link: "https://github.com/StephenSulimani/UGAHacksX",
+            image: "/lib/stealthscribe.webp",
+            weblink: "https://stealthscribe.co",
+            githublink: "https://github.com/StephenSulimani/UGAHacksX",
             tags: ["Svelte", "TypeScript", "IPFS", "Docker", "MongoDB", "Prisma"]
         },
         {
             title: "USLA Reference Data Application",
             description: "A Streamlit CRUD Application implemented in Snowflake to handle United States Loss Adjusting reference data for Crawford and Company.",
             image: "/favicon.png",
-            link: "https://github.com/haydencrane28/USLA-Reference-Data",
+            weblink: "https://github.com/haydencrane28/USLA-Reference-Data",
+            github: "https://github.com/haydencrane28/USLA-Reference-Data",
             tags: ["Python", "Streamlit", "SQL", "Snowflake"]
         },
     ];
@@ -28,7 +30,8 @@
                     title={project.title}
                     description={project.description}
                     image={project.image}
-                    link={project.link}
+                    weblink={project.weblink}
+                    githublink={project.githublink}
                     tags={project.tags}
                 />
             {/each}

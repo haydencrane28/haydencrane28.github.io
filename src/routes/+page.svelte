@@ -11,14 +11,14 @@
 <div class="custom-font">
     <Navbar /> 
     <Intro />
-    <section id="about">
+    <section id="about" class="scroll-mt-6 sm:scroll-mt-2">
         <Experience />
     </section> 
-    <section id="projects">
+    <section id="projects" class="scroll-mt-6">
         <Projects />
     </section>
     <TechStack />
-    <section id="contact">
+    <section id="contact" class="scroll-mt-6">
         <Contact />
     </section>
     <Footer />
