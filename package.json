@@ -44,6 +44,7 @@
 		"@fortawesome/free-brands-svg-icons": "^6.7.2",
 		"@fortawesome/svelte-fontawesome": "^0.2.3",
 		"flowbite-svelte": "^0.47.4",
-		"lucide-svelte": "^0.475.0"
+		"lucide-svelte": "^0.475.0",
+		"svelte-adapter-github": "^1.0.0-next.0"
 	}
 }
