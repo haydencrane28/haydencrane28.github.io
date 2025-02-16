@@ -8,24 +8,27 @@
     import Contact from "../components/contact.svelte";
 </script>
 
-<div class="custom-font">
-    <Navbar /> 
+<div class="bg-sky-950 custom-font">
+    <Navbar />
     <Intro />
-    <section id="about" class="scroll-mt-6 sm:scroll-mt-2">
+    <section id="experience" class="scroll-mt-8">
         <Experience />
     </section> 
-    <section id="projects" class="scroll-mt-6">
+    <section id="projects" class="scroll-mt-24">
         <Projects />
     </section>
     <TechStack />
-    <section id="contact" class="scroll-mt-6">
+    <section id="contact" class="scroll-mt-6 mb-24">
         <Contact />
     </section>
-    <Footer />
+    <section>
+        <Footer />
+    </section>
 </div>
 
 <style>
     .custom-font {
-        font-family: 'Audiowide', sans-serif;
+        font-family: 'Space Grotesk Variable', sans-serif;
+        font-weight: 500;
     }   
 </style>

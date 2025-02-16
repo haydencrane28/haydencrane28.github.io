@@ -3,7 +3,7 @@
 
     let projects = [  
         {
-            title: "StealhScribe - A Decentralized News Platform Powered by IPFS",
+            title: "StealthScribe - A Decentralized News Platform Powered by IPFS",
             description: "PERMANENT, ANONYMOUS, UNFILTERED. Leveraging bleeding edge peer-to-peer file sharing technology, StealthScribe allows users from anywhere on (or off) the planet to share news or information easily.",
             image: "/lib/stealthscribe.webp",
             weblink: "https://stealthscribe.co",
@@ -21,7 +21,7 @@
     ];
 </script>
 
-<div class="bg-sky-950 flex flex-col items-center py-12 md:py-24 lg:py-32">
+<div class="bg-sky-950 flex flex-col items-center ">
     <div class="container px-4 md:px-6">
         <h1 class="text-sky-300 text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-12 text-center">Projects</h1>
         <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
