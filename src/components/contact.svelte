@@ -34,7 +34,7 @@
             <h2 class="text-sky-300 text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-12 text-center">
                 Get in Touch
             </h2>
-            <div class="bg-sky-200 text-sky-900 border rounded-md p-6">
+            <div class="shadow bg-sky-200 text-sky-900 border rounded-md p-6">
                 
                     <form on:submit={handleSubmit}>
                         <div class="items-center space-y-4">
@@ -42,21 +42,21 @@
                                 <label for="name" class="block text-sm font-medium mb-2">
                                     Name
                                 </label>
-                                <input type="text" id="name" class="border rounded-sm w-full"/>
+                                <input type="text" id="name" class="shadow border rounded-sm w-full"/>
                             </div>
                             <div>
                                 <label for="email" class="block text-sm font-medium mb-2">
                                     Email
                                 </label>
-                                <input type="email" id="email" class="border rounded-sm w-full"/>
+                                <input type="email" id="email" class="shadow border rounded-sm w-full"/>
                             </div>
                             <div>
                                 <label for="message" class="block text-sm font-medium mb-2">
                                     Message
                                 </label>
-                                <textarea id="message" class="border rounded-sm w-full"></textarea>
+                                <textarea id="message" class="shadow border rounded-sm w-full"></textarea>
                             </div>
-                            <button type="submit" class="border rounded-sm hover:text-black-200" disabled={pending}>
+                            <button type="submit" class="shadow border rounded-sm hover:text-black-200" disabled={pending}>
                                 {pending ? "Sending..." : "Send Message"}
                             </button>
                             {#if message}

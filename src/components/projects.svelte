@@ -24,7 +24,7 @@
 <div class="bg-sky-950 flex flex-col items-center ">
     <div class="container px-4 md:px-6">
         <h1 class="text-sky-300 text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-12 text-center">Projects</h1>
-        <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        <div class="shadow grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             {#each projects as project}
                 <ProjectCard 
                     title={project.title}
